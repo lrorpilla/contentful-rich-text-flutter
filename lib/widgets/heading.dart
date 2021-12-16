@@ -20,17 +20,17 @@ class Heading extends StatelessWidget {
   TextStyle getTextStyle(BuildContext context, BLOCKS block) {
     switch (block) {
       case BLOCKS.HEADING_1:
-        return Theme.of(context).textTheme.heading1;
+        return Theme.of(context).textTheme.headline1!;
       case BLOCKS.HEADING_2:
-        return Theme.of(context).textTheme.heading2;
+        return Theme.of(context).textTheme.headline2!;
       case BLOCKS.HEADING_3:
-        return Theme.of(context).textTheme.heading3;
+        return Theme.of(context).textTheme.headline3!;
       case BLOCKS.HEADING_4:
-        return Theme.of(context).textTheme.heading4;
+        return Theme.of(context).textTheme.headline4!;
       case BLOCKS.HEADING_5:
-        return Theme.of(context).textTheme.heading5;
+        return Theme.of(context).textTheme.headline5!;
       case BLOCKS.HEADING_6:
-        return Theme.of(context).textTheme.heading6;
+        return Theme.of(context).textTheme.headline6!;
       default:
         throw Exception("Unimplemented block type");
     }
