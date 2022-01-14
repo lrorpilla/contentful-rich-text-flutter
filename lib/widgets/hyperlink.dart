@@ -18,7 +18,8 @@ class Hyperlink extends TextSpan {
                 singletonRenderers.renderMark,
               )
               .copyWith(
-                color: Colors.blue,
+                color: Color(0xFF003BDE),
+                fontWeight: FontWeight.bold,
                 decoration: TextDecoration.underline,
               ),
           children: next(node['content']),
