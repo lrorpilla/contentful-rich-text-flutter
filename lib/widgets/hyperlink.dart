@@ -20,7 +20,6 @@ class Hyperlink extends TextSpan {
               .copyWith(
                 color: Color(0xFF003BDE),
                 fontWeight: FontWeight.bold,
-                decoration: TextDecoration.underline,
               ),
           children: next(node['content']),
           recognizer: TapGestureRecognizer()
